@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Dragon's Figth
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac8b6d4d386255f4b8e86684dc51762b, type: 2}
-  m_sharedMaterial: {fileID: 9016633366908534810, guid: ac8b6d4d386255f4b8e86684dc51762b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -863,8 +863,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start Battle
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1345,7 +1345,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751770218}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 1d394422e34e6864284177cbaec05cd7, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: bfa3f2aaa626fb14d9c4febe057c2877, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 847018581}
