@@ -1,5 +1,6 @@
 using System.Collections;
 using TMPro;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class EscrevaTexto : MonoBehaviour
@@ -16,10 +17,12 @@ public class EscrevaTexto : MonoBehaviour
     [SerializeField] private string mensagem4;
     [TextArea]
     [SerializeField] private string mensagem5;
+    
+    
     [SerializeField] private float VelocidadeDigitacao = 0.02f;
     int contador = 0;
 
-    private bool escrevendo = false;
+    private bool escrevendo = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -66,12 +69,18 @@ public class EscrevaTexto : MonoBehaviour
         {
             texto.text = "";
             StartCoroutine(DigitarTexto(mensagem5));
-
+           
+            
         }
         else
         {
             contador = 0;
         }
+    }
+
+    public bool FinalizaTexto()
+    {
+        return escrevendo;
     }
 }
 
