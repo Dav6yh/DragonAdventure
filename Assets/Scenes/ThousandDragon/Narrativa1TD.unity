@@ -177,6 +177,7 @@ MonoBehaviour:
     da sabedoria, eterno, desperto, incans\xE1vel.\nE enquanto houver algo a ser
     lembrado \u2014\nele continuar\xE1 voando."
   VelocidadeDigitacao: 0.02
+  contador: 0
 --- !u!114 &188195140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,13 +1158,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2019813073}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 2019813078}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Cena1TD
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 214247379}
   - component: {fileID: 214247378}
   - component: {fileID: 214247377}
+  - component: {fileID: 214247380}
   m_Layer: 5
   m_Name: PrimeiroCaminho
   m_TagString: Untagged
@@ -338,25 +339,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1617961425}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: ProximoTexto
+      - m_Target: {fileID: 214247380}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Caminho1TD
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 214247375}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -400,6 +389,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214247375}
   m_CullTransparentMesh: 1
+--- !u!114 &214247380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214247375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6220596686400fd47b8c48480fb00820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &564204834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1125,6 +1127,7 @@ MonoBehaviour:
 
     2 -  Vilarejo'
   VelocidadeDigitacao: 0.02
+  contador: 0
 --- !u!114 &1617961426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1278,6 +1281,7 @@ MonoBehaviour:
   mensagem4: 
   mensagem5: 
   VelocidadeDigitacao: 0.02
+  contador: 0
 --- !u!1 &1730039433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,6 +1294,7 @@ GameObject:
   - component: {fileID: 1730039437}
   - component: {fileID: 1730039436}
   - component: {fileID: 1730039435}
+  - component: {fileID: 1730039438}
   m_Layer: 5
   m_Name: SegundoCaminho
   m_TagString: Untagged
@@ -1361,25 +1366,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1617961425}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: ProximoTexto
+      - m_Target: {fileID: 1730039438}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Caminho2TD
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1730039433}
-        m_TargetAssemblyTypeName: EscrevaTexto, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1423,6 +1416,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1730039433}
   m_CullTransparentMesh: 1
+--- !u!114 &1730039438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730039433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6220596686400fd47b8c48480fb00820, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  som: {fileID: 0}
 --- !u!1 &1770943132
 GameObject:
   m_ObjectHideFlags: 0

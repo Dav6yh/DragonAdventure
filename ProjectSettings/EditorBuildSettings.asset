@@ -33,7 +33,13 @@ EditorBuildSettings:
     path: Assets/Scenes/ThousandDragon/Narrativa1TD.unity
     guid: 178b2342dc6fc584798464e1932f0a26
   - enabled: 1
-    path: Assets/Scenes/ThousandDragon/Cena1TD.unity
+    path: Assets/Scenes/ThousandDragon/Cena1/Caminho1TD.unity
+    guid: b0a9baaee9dba90479dbca53a5af2565
+  - enabled: 1
+    path: Assets/Scenes/ThousandDragon/Cena1/Caminho2TD.unity
+    guid: 87af51ab48abe96468af6ab1446e5ea2
+  - enabled: 1
+    path: Assets/Scenes/ThousandDragon/Cena1/Cena1TD.unity
     guid: ec9e7b0fad1e6a74d8a93b2c334389bb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

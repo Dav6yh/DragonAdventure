@@ -68,8 +68,23 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Narrativa1TD");
     }
 
+    public void Cena1TD()
+    {
+        SceneManager.LoadScene("Cena1TD");
+    }
+    public void Caminho1TD()
+    {
+        SceneManager.LoadScene("Caminho1TD");
+    }
+
+    public void Caminho2TD()
+    {
+        SceneManager.LoadScene("Caminho2TD");
+    }
+
     public void continueBW()
     {
         SceneManager.LoadScene("Narrativa1BW");
     }
+
 }

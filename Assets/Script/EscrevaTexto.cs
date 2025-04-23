@@ -20,9 +20,9 @@ public class EscrevaTexto : MonoBehaviour
     
     
     [SerializeField] private float VelocidadeDigitacao = 0.02f;
-    int contador = 0;
+    [SerializeField] int contador = 0;
 
-    private bool escrevendo = true;
+    private bool escrevendo = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -33,15 +33,11 @@ public class EscrevaTexto : MonoBehaviour
 
     private IEnumerator DigitarTexto(string mensagem)
     {
-        escrevendo = true;
-
         foreach (char letra in mensagem)
         {
             texto.text += letra;
             yield return new WaitForSeconds(VelocidadeDigitacao);
         }
-
-        escrevendo = false;
     }
 
 
@@ -68,6 +64,7 @@ public class EscrevaTexto : MonoBehaviour
         else if (contador == 4)
         {
             texto.text = "";
+            escrevendo = true;
             StartCoroutine(DigitarTexto(mensagem5));
            
             
@@ -80,7 +77,11 @@ public class EscrevaTexto : MonoBehaviour
 
     public bool FinalizaTexto()
     {
+
+
         return escrevendo;
+        
+        
     }
 }
 
