@@ -41,6 +41,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThousandDragon/Cena1/Cena1TD.unity
     guid: ec9e7b0fad1e6a74d8a93b2c334389bb
+  - enabled: 1
+    path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Conversa1TD.unity
+    guid: d50db4a38a5c92348b0fae5d110c5481
+  - enabled: 1
+    path: Assets/Scenes/ThousandDragon/Cena1/Batalha/TDvsCoruja.unity
+    guid: 3ec9628b27d83ad469d4ade3b4124fbf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
