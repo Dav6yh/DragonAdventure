@@ -82,6 +82,16 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Caminho2TD");
     }
 
+    public void LutaTDvsC()
+    {
+        SceneManager.LoadScene("TDvsCoruja");
+    }
+
+    public void Conversa2TDCoruja()
+    {
+        SceneManager.LoadScene("Conversa2TDC");
+    }
+
     public void continueBW()
     {
         SceneManager.LoadScene("Narrativa1BW");
