@@ -87,6 +87,10 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("TDvsCoruja");
     }
 
+    public void Conversa1TDCoruja()
+    {
+        SceneManager.LoadScene("Conversa1TDC");
+    }
     public void Conversa2TDCoruja()
     {
         SceneManager.LoadScene("Conversa2TDC");

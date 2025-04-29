@@ -45,7 +45,7 @@ EditorBuildSettings:
     path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Conversa2TDC.unity
     guid: 30a7f5644a2c54b4c90081e5d3a0845e
   - enabled: 1
-    path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Conversa1TD.unity
+    path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Conversa1TDC.unity
     guid: d50db4a38a5c92348b0fae5d110c5481
   - enabled: 1
     path: Assets/Scenes/ThousandDragon/Cena1/Batalha/TDvsCoruja.unity
