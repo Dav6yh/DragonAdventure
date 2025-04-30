@@ -11,12 +11,14 @@ public class Thousand : MonoBehaviour
     [SerializeField] private bool estahVivo = true;
     [SerializeField] private DiretorBatalha dB;
     [SerializeField] private Sprite spriteDerrota;
-    private Animator anim;
+
+
+    //private Animator anim;
     private SpriteRenderer spriteRenderer;
 
     private void Start()
     {
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -123,20 +125,20 @@ public class Thousand : MonoBehaviour
         {
             Debug.Log("");
             dB.RecebeTexto($"{nomePersonagem} consegue se defender!");
-            anim.SetTrigger("Defesa");
+            //anim.SetTrigger("Defesa");
         }
         else if (danoFinal <= 25)
         {
             Debug.Log("");
             dB.RecebeTexto($"{nomePersonagem} leva dano de {danoFinal}.");
-            anim.SetTrigger("Dano");
+            //anim.SetTrigger("Dano");
             vida -= danoFinal; //vida = vida - danoFinal;
         }
         else
         {
             Debug.Log("");
             dB.RecebeTexto($"{nomePersonagem} toma uma porrada de {danoFinal}.");
-            anim.SetTrigger("Dano");
+            //anim.SetTrigger("Dano");
             vida -= danoFinal;
         }
 

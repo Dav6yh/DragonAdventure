@@ -18,7 +18,6 @@ public class EscrevaTexto : MonoBehaviour
     [TextArea]
     [SerializeField] private string mensagem5;
     
-    
     [SerializeField] private float VelocidadeDigitacao = 0.02f;
     [SerializeField] int contador = 0;
 
@@ -66,7 +65,6 @@ public class EscrevaTexto : MonoBehaviour
             texto.text = "";
             escrevendo = true;
             StartCoroutine(DigitarTexto(mensagem5));
-           
             
         }
         else

@@ -2,11 +2,8 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Dragoes
-    
-    
-    
-    : MonoBehaviour
+public class Dragoes : MonoBehaviour
+      
 {
     [SerializeField] private string nomePersonagem;
     [SerializeField] private int vida;
@@ -16,7 +13,6 @@ public class Dragoes
     [SerializeField] private bool estahVivo = true;
     [SerializeField] private DiretorBatalha dB;
     [SerializeField] private Sprite spriteDerrota;
-    [SerializeField] 
     private Animator anim;
     private SpriteRenderer spriteRenderer;
 

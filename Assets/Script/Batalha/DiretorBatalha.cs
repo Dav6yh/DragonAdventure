@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class DiretorBatalha : MonoBehaviour
 {
-    [SerializeField] Dragoes player;
-    [SerializeField] Dragoes inimigo;
+    [SerializeField] Thousand player;
+    [SerializeField] Thousand inimigo;
     [SerializeField] TextMeshProUGUI vidaPlayer;
     [SerializeField] TextMeshProUGUI vidaInimigo;
     [SerializeField] TextMeshProUGUI nomePlayer;
@@ -16,8 +16,6 @@ public class DiretorBatalha : MonoBehaviour
     [SerializeField] Button botaoAtaque;
     [SerializeField] string turno = "Player";
     bool verificadorDeTurno = true;
-    [SerializeField] GameObject buttonSUmir;
-    [SerializeField] GameObject escrevendoText;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -114,8 +112,4 @@ public class DiretorBatalha : MonoBehaviour
         }
     }
 
-    private void AparecerButton()
-    {
-        
-    }
 }
