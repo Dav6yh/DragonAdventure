@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Narrador : MonoBehaviour
 {
+    [SerializeField] GameObject buttonEscolha;
     [SerializeField] GameObject buttonSumir;
     [SerializeField] GameObject escrevendoText;
 
@@ -14,14 +15,18 @@ public class Narrador : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(escrevendoText.GetComponent<EscrevaTexto>().FinalizaTexto())
+        {
+            buttonSumir.SetActive(false);
+            AparecerBotoes();
+        }
     }
 
     public void AparecerBotoes()
     {
         if (escrevendoText.GetComponent<EscrevaTexto>().FinalizaTexto())
         {
-            buttonSumir.SetActive(true);
+            buttonEscolha.SetActive(true);
         }
     }
 }

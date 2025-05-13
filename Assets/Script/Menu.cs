@@ -43,6 +43,16 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("ThousandDragon");
     }
 
+    public void ChegadaPoco()
+    {
+        SceneManager.LoadScene("ChegadaPoco");
+
+    }
+
+    public void LutaFinal()
+    {
+        SceneManager.LoadScene("LutaFinal");
+    }
     public void SlyferSky()
     {
         SceneManager.LoadScene("SlyferSky");

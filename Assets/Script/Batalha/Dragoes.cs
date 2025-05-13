@@ -59,7 +59,7 @@ public class Dragoes : MonoBehaviour
 
         if (valorAtaque > 0)
         {
-            dB.RecebeTexto("ARgh! Sinta Minha Furia!");
+            dB.RecebeTexto("Sinta a Garra do Dragao!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorAtaque}");
         }
         else
@@ -98,14 +98,14 @@ public class Dragoes : MonoBehaviour
         if (chanceDeDobrar >= 90 && especial >= 3)
         {
             int valorEspecialDobrado = valorEspecial * 2;
-            dB.RecebeTexto("ARgh! Sede de Vinguança!");
+            dB.RecebeTexto("ARgh! Morra incinerado!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecialDobrado}");
             especial = 0;
             return valorEspecialDobrado;
         }
         else if (chanceDeDobrar < 90 && especial >= 3)
         {
-            dB.RecebeTexto("ARgh! Vou te esmagar!");
+            dB.RecebeTexto("ARgh! Queime!");
             dB.RecebeTexto($"{nomePersonagem} ataca com {valorEspecial}");
             especial = 0;
             return valorEspecial;
