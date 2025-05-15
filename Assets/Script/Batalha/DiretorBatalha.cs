@@ -1,20 +1,24 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DiretorBatalha : MonoBehaviour
 {
-    [SerializeField] Thousand player;
-    [SerializeField] Thousand inimigo;
+    [SerializeField] Player player;
+    [SerializeField] Player inimigo;
     [SerializeField] TextMeshProUGUI vidaPlayer;
     [SerializeField] TextMeshProUGUI vidaInimigo;
     [SerializeField] TextMeshProUGUI nomePlayer;
     [SerializeField] TextMeshProUGUI nomeInimigo;
     [SerializeField] TextMeshProUGUI informativo;
+    [SerializeField] TextMeshProUGUI indicadorEspecial;
+    [SerializeField] GameObject textoTextoVitoria;
+    [SerializeField] GameObject textoTextoDerrota;
     [SerializeField] Button botaoEspecial;
     [SerializeField] Button botaoAtaque;
-    [SerializeField] string turno = "Player";
+    string turno = "Player";
     bool verificadorDeTurno = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,13 +28,15 @@ public class DiretorBatalha : MonoBehaviour
         vidaInimigo.text = inimigo.GetVida().ToString();
         nomePlayer.text = player.GetNomePersonagem();
         nomeInimigo.text = inimigo.GetNomePersonagem();
+        indicadorEspecial.text = player.ValorEspecial().ToString();
         botaoEspecial.interactable = false;
     }
 
     void Update()
     {
+        AtualizaDadosTela();
 
-        if(turno == "Player" && verificadorDeTurno)
+        if (turno == "Player" && verificadorDeTurno && player.VerificaVida())
         {
             botaoAtaque.interactable = true;
 
@@ -45,10 +51,12 @@ public class DiretorBatalha : MonoBehaviour
 
             verificadorDeTurno = false;
         }
-        else if(turno == "Inimigo" && verificadorDeTurno)
+        else if (turno == "Inimigo" && verificadorDeTurno && inimigo.VerificaVida())
         {
             StartCoroutine(AtaqueInimigo());
         }
+
+        VerificaVitoria();
     }
 
     public void AtaquePlayer()
@@ -65,8 +73,8 @@ public class DiretorBatalha : MonoBehaviour
 
     private void AtualizaDadosTela()
     {
-        vidaPlayer.text = player.GetVida().ToString();
-        vidaInimigo.text = inimigo.GetVida().ToString();
+        vidaPlayer.text = "Vida: " + player.GetVida().ToString();
+        vidaInimigo.text = "Vida: " + inimigo.GetVida().ToString();
     }
 
     public void RecebeTexto(string texto)
@@ -90,7 +98,6 @@ public class DiretorBatalha : MonoBehaviour
             botaoAtaque.interactable = false;
             botaoEspecial.interactable = false;
             player.LevarDano(inimigo.Ataque());
-            AtualizaDadosTela();
             yield return new WaitForSeconds(5f);
             verificadorDeTurno = true;
             turno = "Player";
@@ -102,14 +109,39 @@ public class DiretorBatalha : MonoBehaviour
         verificadorDeTurno = false;
         botaoAtaque.interactable = false;
         botaoEspecial.interactable = false;
+        indicadorEspecial.text = player.ValorEspecial().ToString();
 
         if (turno == "Player")
         {
-            AtualizaDadosTela();
             yield return new WaitForSeconds(5f);
             verificadorDeTurno = true;
             turno = "Inimigo";
         }
     }
 
+    public void VerificaVitoria()
+    {
+        if (!inimigo.VerificaVida())
+        {
+            StartCoroutine(TelaVitoria());
+        }
+        else if (!player.VerificaVida())
+        {
+            player.PlaySomMorte();
+            textoTextoDerrota.SetActive(true);
+        }
+    }
+
+    IEnumerator TelaVitoria()
+    {
+        yield return new WaitForSeconds(0.1f);
+        player.PlaySomVitoria();
+        yield return new WaitForSeconds(0.1f);
+        textoTextoVitoria.SetActive(true);
+    }
+
+    public void ReiniciarJogo()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

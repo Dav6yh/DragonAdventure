@@ -53,6 +53,16 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("LutaFinal");
     }
+
+    public void Vitoria()
+    {
+        SceneManager.LoadScene("Vitoria");
+    }
+
+    public void Derrota()
+    {
+        SceneManager.LoadScene("Derrota");
+    }
     public void SlyferSky()
     {
         SceneManager.LoadScene("SlyferSky");

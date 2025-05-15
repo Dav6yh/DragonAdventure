@@ -1166,8 +1166,8 @@ MonoBehaviour:
     para o desconhecido,sem corpo, sem rosto, mas tudo vejo.Entre as n\xE9voas, meu
     caminho \xE9 tra\xE7ado. Quem sou eu, que vagueia sem ser tocado?\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 244553bb425f811488dc32f6ab649321, type: 2}
+  m_sharedMaterial: {fileID: 221053195065325391, guid: 244553bb425f811488dc32f6ab649321, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
