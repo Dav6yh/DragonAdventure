@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PocoPerto_0: 8620834904869608655
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
