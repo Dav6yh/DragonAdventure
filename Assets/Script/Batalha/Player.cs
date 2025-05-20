@@ -184,7 +184,6 @@ public class Player : MonoBehaviour
         if (vida <= 0)
         {
             estahVivo = false;
-            spriteRenderer.sprite = spriteDerrota;
             vida = 0;
             
         }
