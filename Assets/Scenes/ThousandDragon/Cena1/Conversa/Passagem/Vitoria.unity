@@ -452,8 +452,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1888.7285, y: -1870.9951}
-  m_SizeDelta: {x: 559.0929, y: 261.4568}
+  m_AnchoredPosition: {x: 1628.3556, y: -1445.8}
+  m_SizeDelta: {x: 495.3321, y: 180.51}
   m_Pivot: {x: 2.8515072, y: -5.2516527}
 --- !u!114 &185667963
 MonoBehaviour:
@@ -772,8 +772,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 83.37
-  m_fontSizeBase: 83.37
+  m_fontSize: 62.52
+  m_fontSizeBase: 62.52
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -859,8 +859,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.541016, y: 313.6106}
-  m_SizeDelta: {x: 1454.6368, y: 809.3854}
+  m_AnchoredPosition: {x: 1.1465, y: 136.71}
+  m_SizeDelta: {x: 1420.1962, y: 746.3423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &695931337
 MonoBehaviour:
@@ -952,8 +952,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 65.7
-  m_fontSizeBase: 65.7
+  m_fontSize: 58.3
+  m_fontSizeBase: 58.3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 44.20807, y: 44.207886, z: 284.1942, w: 37.89264}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1251,8 +1251,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 305}
-  m_SizeDelta: {x: 2085.8333, y: 1194.1993}
+  m_AnchoredPosition: {x: -119.99304, y: 137.64124}
+  m_SizeDelta: {x: 1492.1831, y: 910.0052}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091410834
 MonoBehaviour:

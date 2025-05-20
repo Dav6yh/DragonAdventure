@@ -56,6 +56,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Passagem/LutaFinal.unity
     guid: d5dc41792837710468f3a432b0fd2fe8
+  - enabled: 1
+    path: Assets/Scenes/ThousandDragon/Cena1/Conversa/Passagem/Vitoria.unity
+    guid: 21864e104bfd0f742a5e1ad7e936bba9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

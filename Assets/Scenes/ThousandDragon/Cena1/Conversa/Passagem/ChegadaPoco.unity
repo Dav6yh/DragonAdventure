@@ -291,8 +291,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88.00525, y: 536.9143}
-  m_SizeDelta: {x: 1513.4678, y: 864.7345}
+  m_AnchoredPosition: {x: 292.8938, y: 78.21948}
+  m_SizeDelta: {x: 983.949, y: 703.0221}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348693750
 MonoBehaviour:
@@ -391,11 +391,11 @@ MonoBehaviour:
   mensagem3: Saindo pelos arbustos e entrando a frente do poco, um enorme monstro,
     semelhante a um centauro fica entre voce e seu destino, porem, ele possui algo
     semelhante a uma armadura de pedra
-  mensagem4: A centopeia encara voce e enquanto comeca a ditar "Vejo que voce passou
-    pela coruja, porem, agora tera que passar por mim, o protetor desse posso e seu
+  mensagem4: o centauro encara voce e enquanto comeca a ditar "Vejo que voce passou
+    pela coruja, porem, agora tera que passar por mim, o protetor desse poco e seu
     futuro assassino"
-  mensagem5: 'A criatura demonstra seu ernorme comprimento, assim entrando em posicao
-    de batalha.
+  mensagem5: 'A criatura o enquanto aponta seu braco semelhante a uma espada para
+    voce, assim entrando em posicao de batalha.
 
     Venca ou Morra.
 
@@ -450,8 +450,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.56
-  m_fontSizeBase: 61.56
+  m_fontSize: 56.01
+  m_fontSizeBase: 56.01
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -488,7 +488,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 171.70801, y: 60.32965, z: 167.06677, w: 13.922211}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 46.407593, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -889,8 +889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 496.5, y: -72.203}
-  m_SizeDelta: {x: 571.3779, y: 208.6792}
+  m_AnchoredPosition: {x: 672.89746, y: -416.9879}
+  m_SizeDelta: {x: 371.4693, y: 169.6544}
   m_Pivot: {x: 0.69857526, y: 0.1540012}
 --- !u!114 &660265195
 MonoBehaviour:
